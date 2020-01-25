@@ -1,0 +1,27 @@
+* {
+	font-family:monospace;
+	/*font-size: 1em;*/
+}
+.plug-s input[type=button] {
+	border-radius: 50%;
+	font-size: 3.5ex;
+	margin: 5px;
+}
+.plug-s input[type=button]:hover {
+	background: red;
+}
+iframe {
+	margin-top: 20px;
+}
+
+#mp {
+	
+}
+
+#p {
+	
+}
+
+#o {
+	
+}
