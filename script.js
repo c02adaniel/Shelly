@@ -10,7 +10,7 @@ function idozito(egyseg,nev) {
 		};
 	if (egyseg=="o") 
 		{
-			szoveg='<input type="number" class="o" id="'+nev+'" min="0" max="23" value="0" required step="1" size="2">';
+			szoveg='<input type="number" class="o" disabled id="'+nev+'" min="0" max="23" value="0" required step="1" size="2">';
 		};
 	return szoveg;
 }
