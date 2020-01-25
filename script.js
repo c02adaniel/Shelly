@@ -48,16 +48,10 @@ function megnyit(mit,allapot) {
 		{
 			allapot1="off";
 			allapot2="Ki";
-		}
-	var o=mit+"_o";
-	var p=mit+"_p";
-	var mp=mit+"_mp";
+		};
 	var ora=document.getElementById(mit+"_o").value;
 	var perc=document.getElementById(mit+"_p").value;
-	var masodperc=document.getElementById(mp).value;
-	//var ora=0;
-	//var perc=0;
-	//var masodperc=0;
+	var masodperc=document.getElementById(mit+"_mp").value;
 	var ido=((ora*60)+perc)*60+masodperc;
 	//var ido=0;
 	var hiv='http:/'+'/'+mit+"/relay/0?turn="+allapot1;
@@ -65,8 +59,5 @@ function megnyit(mit,allapot) {
 		{
 			hiv+="&timer="+ido;
 		};
-	
-	//var szoveg='<input type="button" onclick="window.open('+"'"+hiv+"'"+','+"'nyit'"+')" value="'+allapot2+'">';
-	//return szoveg;
 	window.open(hiv,"nyit");
 }
